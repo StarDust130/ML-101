@@ -1,0 +1,121 @@
+# Python .gitignore
+# Add your package folder name below to prevent it from being committed (e.g., mypackage/)
+# mypackage/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+wheelhouse/
+
+# Virtual environments
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv / poetry / pip-tools
+Pipfile.lock
+poetry.lock
+requirements.txt.*
+
+# mypy / pyright
+.mypy_cache/
+.pyright/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files and secrets
+.env
+.env.*
+credentials/
+secrets.json
+
+# celery
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage reports
+htmlcov/
