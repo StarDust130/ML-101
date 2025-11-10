@@ -24,6 +24,6 @@ This is where I explore and experiment with key tools and frameworks that power 
 
 ---
 <div align="center">
-🧠 "Train your mind like you train your model — feed it good data, adjust your parameters, and never stop learning." 💡
+🌱 "Keep growing — even when no one’s watching." ✨
 </div> 
 
