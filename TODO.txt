@@ -1,3 +1,7 @@
+# Create the virtual environment.
+python -m venv venv
+
+
+# To activate the virtual environment.
 source venv/Scripts/activate
- to activate the virtual environment
  
